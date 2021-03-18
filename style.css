@@ -1,0 +1,21 @@
+/* atalho para comentário (Ctrl + ;) */
+/* para classes, colocar um ponto(.) */
+.sucess {
+    font-size: 50px;
+}
+/* para tags html, colocar a tag direto */
+body {
+    background-color: black;
+}
+
+h1 {
+    color: purple;
+}
+/* paara id, colocar a hashtag(#) */
+#id_paragrafo {
+    color: blue;
+}
+/* Mudar uma tag dentro de uma class */
+.titulo h1 {
+    color: red;
+}
