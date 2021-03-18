@@ -1,16 +1,11 @@
-/* 
-RESETANDO E FORÇANDO QUE O CORPO DO MEU SITE TENHA
-0 DE MARGEM, PADDING E BORDER
-*/
+
 body {
     margin: 0;
     padding: 0;
     border: 0;
   }
   
-  /* 
-  CRIA CABECAO COM ALTURA DE 80PX 
-  */
+ 
   .cabecalho {
     padding-top: 20px;
     background: #262627;
@@ -19,14 +14,9 @@ body {
   }
   
   .caixa {
-    max-width: 100%; /* 
-                          FAZ COM QUE A LARGURA MAXIMA DESSA CAIXA SEJA 1280px 
-                          ISSO FAZ COM QUE OS ELEMENTOS DENTRO DESSA CAIXA RESPEITEM
-                          A LARGURA MAXIMA DESSA CAIA, FAZENDO ASSIM, QUE OS ELEMENTOS DE
-                          DENTRO DA CAIXA NAO FIQUE 'COLADO' NAS EXTREMIDADES DA PAGINA
-                          */
+    max-width: 100%; 
     height: 100%;
-    margin: 0 0 0 70px /* O Zero signifca margem na cima e baixo e o auto e nas larguras */
+    margin: 0 0 0 70px 
   }
 
   .caixa b {
@@ -46,15 +36,11 @@ body {
   }
   
   
-  /* FAÇO A NAVEGACAO FICAR A DIREITA */
+
   .cabecalho nav {
     float: right;
   }
   
-  /* 
-  POR PADRAO A LISTA VEM NO FORMATO DE BULLET
-  DEIXANDO none, A LISTA FICA SEM ESTILO PADRAO
-   */
   
   ul {
     list-style: none;
@@ -62,13 +48,6 @@ body {
     margin-right: 100px;
   }
   
-  /* 
-  OS ITENS DA LISTA VAO TER A COR DO TEXTO BRANCO
-  POR PADRAO OS ITENS DA LISTA FICAM UM ABAIXO DO OUTRO
-  COLOCANDO O DISPLAY INLINE, ELES FICAM UM AO LADO DO OUTRO
-  E COLOCO UMA MARGEM NA ESQUERDA PARA QUE ELES NAO FIQUEM
-  UM GRUDADO NO OUTRO
-   */
   ul li {
     display: inline;
     margin-left: 8px;
