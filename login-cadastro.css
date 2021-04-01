@@ -1,0 +1,89 @@
+  /* Página Login */
+
+  .pag_login {
+      background-color: #ecf0f1;
+      text-align: center;
+      padding: 50px 0;
+      height: 390px;
+  }
+  
+
+  .caixa_login {
+    display: inline-block;
+    background-color: white;
+    box-shadow: 3px 3px 5px 2px #ccc;
+    padding: 30px 20px 0 20px;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .caixa_login h1 {
+    padding-bottom: 20px;
+  }
+
+  .pag_login .input_padrao {
+      width: 55%;
+      display: inline-block;
+      padding: 3px 0;
+     
+    
+  }
+
+  .btn_verde {
+      color: white;
+      background-color: green;
+      margin: 20px 0 50px 0;
+      border: 0;
+      padding: 10px 20px;
+      border-radius: 5px;
+      float: left;
+      cursor: pointer;
+  }
+
+  .pag_login .btn_verde {
+      display: block;
+      float: none;
+      margin: auto;
+  }
+
+  /* Página cadastro */
+
+  .pag_cadastro {
+    background-color: #ecf0f1;
+    padding: 0;
+    height: 550px;
+}
+
+  .caixa_cadastro {
+    float: left;
+    background-color:#ecf0f1;
+    padding: 0 20px 0 50px;
+    width: 50%;
+    height: 550px;
+  }
+
+  
+
+.pag_cadastro .input_padrao {
+    width: 80%;
+    display: inline-block;
+    padding: 3px 0;
+   
+  
+}
+
+.caixa_cadastro_imagem {
+    float: left;
+    width: 40%;
+    height: 450px;
+}
+
+.caixa_cadastro_imagem img {
+    padding-top: 100px;
+    height: 90%;
+}
+
+.pag_cadastro .input_padrao::placeholder {
+    padding-left: 1rem;  
+}
