@@ -1,0 +1,10 @@
+
+.titulo-grafico h1 {
+    text-align: center;
+}
+
+.corpo-grafico {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
